@@ -1,5 +1,6 @@
 apply plugin: 'java-library'
 apply from :"$rootDir.absolutePath/gradle/pushJarToJCenter.gradle"
+//apply from :"$rootDir.absolutePath/gradle/pushJarToMaven.gradle"
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation files(org.gradle.internal.jvm.Jvm.current().toolsJar)
