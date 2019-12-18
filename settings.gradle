@@ -1,0 +1,3 @@
+rootProject.name='AndroidDeleteLog'
+include ':app'
+include ':AndroidLogProcessor'
